@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('/images/bg.png');
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
